@@ -22,3 +22,4 @@ require 'sportscaster/resources/not_found_error'
 
 # Resources
 require 'sportscaster/resources/league'
+require 'sportscaster/resources/season'

@@ -6,8 +6,7 @@ module Sportscaster
     field :provider_uid
     field :created_at
     field :updated_at
-    field :season_id
-    field :goalie_id
+    field :season_team_memberhip_id
     field :games_played
     field :wins
     field :losses

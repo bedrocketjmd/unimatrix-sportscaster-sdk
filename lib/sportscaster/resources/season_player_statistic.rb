@@ -3,11 +3,9 @@ module Sportscaster
     field :id
     field :uuid
     field :provider
-    field :provider_uid
     field :created_at
     field :updated_at
-    field :season_id
-    field :player_id
+    field :season_team_memberhip_id
     field :goals
     field :assists
     field :points

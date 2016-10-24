@@ -1,20 +1,14 @@
 module Sportscaster
-  class Game < Base
+  class GameStatistic < Base
     field :id
     field :uuid
     field :provider
     field :provider_uid
     field :created_at
     field :updated_at
-    field :season_id
-    field :away_team_id
-    field :home_team_id
-    field :game_number
-    field :date
-    field :status
-    field :arena_id
-    field :home_score
-    field :away_score
+    field :game_id
+    field :attendance
+    field :periods
 
     has_many :game_statistics
     has_many :game_team_statistics

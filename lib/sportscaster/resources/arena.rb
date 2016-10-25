@@ -1,5 +1,5 @@
 module Sportscaster
-  class Game < Base
+  class Arena < Base
     field :id
     field :uuid
     field :provider

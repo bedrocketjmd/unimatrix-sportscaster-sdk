@@ -22,3 +22,12 @@ require 'sportscaster/resources/not_found_error'
 
 # Resources
 require 'sportscaster/resources/league'
+require 'sportscaster/resources/season'
+require 'sportscaster/resources/division'
+require 'sportscaster/resources/team'
+require 'sportscaster/resources/season_team'
+require 'sportscaster/resources/player'
+require 'sportscaster/resources/season_team_membership'
+require 'sportscaster/resources/game_team_membership'
+require 'sportscaster/resources/season_player_statistic'
+require 'sportscaster/resources/season_goalie_statistic'

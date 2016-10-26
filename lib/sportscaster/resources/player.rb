@@ -18,9 +18,7 @@ module Sportscaster
     field :shoots
 
     has_many :teams
-    has_many :game_player_statistics
-    has_many :season_player_statistics
-    has_many :game_goalie_statistics
-    has_many :season_goalie_statistics
+    has_many :games
+    has_many :rostered_teams
   end
 end

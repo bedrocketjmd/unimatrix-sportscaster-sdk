@@ -16,9 +16,9 @@ module Sportscaster
     field :home_score
     field :away_score
 
-    has_many :game_statistics
-    has_many :game_team_statistics
-    has_many :game_player_statistics
-    has_many :game_goalie_statistics
+    has_one :game_statistic
+    has_one :game_team_statistic
+    has_many :teams
+    has_many :players
   end
 end

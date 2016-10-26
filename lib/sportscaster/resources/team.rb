@@ -9,10 +9,12 @@ module Sportscaster
     field :created_at
     field :updated_at
 
+    has_many :seasons
+    has_many :divisions
     has_many :players
+    has_many :games
     has_many :home_games
     has_many :away_games
-    has_many :game_team_statistics
-    has_many :season_team_statistics
+    has_one :game_team_statistic
   end
 end

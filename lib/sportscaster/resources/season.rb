@@ -12,8 +12,5 @@ module Sportscaster
     has_many :teams
     has_many :divisions
     has_many :games
-
-    has_many :season_team_statistics
-    has_many :season_player_statistics
   end
 end

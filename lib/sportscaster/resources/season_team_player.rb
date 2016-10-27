@@ -1,5 +1,5 @@
 module Sportscaster
-  class SeasonTeamMembership < Base
+  class SeasonTeamPlayer < Base
     field :id
     field :season_team_id
     field :player_id

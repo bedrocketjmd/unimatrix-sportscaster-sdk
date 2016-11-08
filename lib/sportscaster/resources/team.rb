@@ -6,6 +6,7 @@ module Sportscaster
     field :short_name
     field :provider
     field :provider_uid
+    field :logo_url
     field :created_at
     field :updated_at
 

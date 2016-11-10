@@ -16,6 +16,9 @@ module Sportscaster
     field :position
     field :photo_url
     field :shoots
+    field :active
+    field :rookie
+    field :captain
 
     has_many :teams
     has_many :games

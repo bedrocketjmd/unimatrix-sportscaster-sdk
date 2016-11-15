@@ -3,6 +3,7 @@ module Sportscaster
     field :id
     field :uuid
     field :name
+    field :year
     field :provider
     field :provider_uid
     field :created_at

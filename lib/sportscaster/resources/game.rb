@@ -18,7 +18,9 @@ module Sportscaster
 
     has_one :game_statistic
     has_one :game_team_statistic
+    has_many :game_team_players
     has_many :teams
     has_many :players
+    has_many :officials
   end
 end

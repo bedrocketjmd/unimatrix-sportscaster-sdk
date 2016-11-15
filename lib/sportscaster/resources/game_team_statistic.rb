@@ -13,6 +13,7 @@ module Sportscaster
     field :power_play_advantages
     field :power_play_goals
     field :shots_on_goal
+    field :shots_off_goal
     field :loose_balls
     field :faceoffs
     field :faceoffs_won

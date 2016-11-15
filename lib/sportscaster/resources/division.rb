@@ -10,5 +10,6 @@ module Sportscaster
 
     has_many :teams
     has_many :seasons
+    has_many :season_teams
   end
 end

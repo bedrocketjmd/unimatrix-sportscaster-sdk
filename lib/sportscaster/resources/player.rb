@@ -20,7 +20,10 @@ module Sportscaster
     field :rookie
     field :captain
 
+    has_many :season_team_players
+    has_many :season_teams
     has_many :teams
+    has_many :game_team_players
     has_many :games
     has_many :rostered_teams
   end

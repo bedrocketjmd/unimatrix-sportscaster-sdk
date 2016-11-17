@@ -10,6 +10,7 @@ module Sportscaster
     field :updated_at
     field :league_id
 
+    has_many :season_teams
     has_many :teams
     has_many :divisions
     has_many :games

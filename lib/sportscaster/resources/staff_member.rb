@@ -1,5 +1,5 @@
 module Sportscaster
-  class Staff < Base
+  class StaffMember < Base
     field :id
     field :uuid
     field :provider

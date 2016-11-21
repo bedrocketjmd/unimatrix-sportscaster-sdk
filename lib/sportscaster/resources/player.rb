@@ -19,6 +19,7 @@ module Sportscaster
     field :active
     field :rookie
     field :captain
+    field :league_id
 
     has_many :season_team_players
     has_many :season_teams

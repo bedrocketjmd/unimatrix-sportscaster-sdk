@@ -18,5 +18,22 @@ module Sportscaster
     field :updated_at
 
     has_many :seasons
+    has_many :arenas
+    has_many :divisions
+    has_many :games
+    has_many :game_goalie_statistics
+    has_many :game_player_statistics
+    has_many :game_statistics
+    has_many :game_team_players
+    has_many :game_team_statistics
+    has_many :officials
+    has_many :players
+    has_many :season_goalie_statistics
+    has_many :season_player_statistics
+    has_many :season_teams
+    has_many :season_team_players
+    has_many :season_team_statistics
+    has_many :staff_members
+    has_many :teams
   end
 end

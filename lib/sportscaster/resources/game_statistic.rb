@@ -8,6 +8,6 @@ module Sportscaster
     field :game_id
     field :attendance
     field :periods
-
+    field :league_id
   end
 end

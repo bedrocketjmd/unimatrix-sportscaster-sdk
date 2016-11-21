@@ -20,6 +20,6 @@ module Sportscaster
     field :saves_percentage
     field :power_play
     field :penalty_kill
-
+    field :league_id
   end
 end

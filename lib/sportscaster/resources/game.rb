@@ -15,6 +15,7 @@ module Sportscaster
     field :arena_id
     field :home_score
     field :away_score
+    field :league_id
 
     has_one :game_statistic
     has_one :game_team_statistic

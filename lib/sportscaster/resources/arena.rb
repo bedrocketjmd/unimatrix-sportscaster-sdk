@@ -15,8 +15,8 @@ module Sportscaster
     field :twitter
     field :facebook
     field :youtube
+    field :league_id
 
     has_many :games
-
   end
 end

@@ -17,6 +17,6 @@ module Sportscaster
     field :loose_balls
     field :faceoffs
     field :faceoffs_won
-
+    field :league_id
   end
 end

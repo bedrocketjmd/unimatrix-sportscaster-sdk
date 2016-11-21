@@ -18,5 +18,6 @@ module Sportscaster
     field :shooting_percentage
     field :loose_balls
     field :faceoffs
+    field :league_id
   end
 end

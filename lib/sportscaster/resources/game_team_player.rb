@@ -6,6 +6,7 @@ module Sportscaster
     field :player_id
     field :created_at
     field :updated_at
+    field :league_id
 
     has_one :game_player_statistic
     has_one :game_goalie_statistic

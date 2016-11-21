@@ -9,6 +9,6 @@ module Sportscaster
     field :saves
     field :shots_against
     field :goals_against
-
+    field :league_id
   end
 end

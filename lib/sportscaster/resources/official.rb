@@ -10,6 +10,6 @@ module Sportscaster
     field :first_name
     field :last_name
     field :type_name
-
+    field :league_id
   end
 end

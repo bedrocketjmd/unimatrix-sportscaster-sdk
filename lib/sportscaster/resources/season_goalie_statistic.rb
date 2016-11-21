@@ -14,5 +14,6 @@ module Sportscaster
     field :saves
     field :shots_against
     field :save_percentage
+    field :league_id
   end
 end

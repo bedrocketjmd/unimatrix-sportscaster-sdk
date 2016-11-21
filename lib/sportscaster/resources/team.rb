@@ -10,6 +10,7 @@ module Sportscaster
     field :mascot_name
     field :created_at
     field :updated_at
+    field :league_id
 
     has_many :season_teams
     has_many :seasons

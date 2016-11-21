@@ -18,6 +18,6 @@ module Sportscaster
     field :shots_on_goal
     field :loose_balls
     field :faceoffs
-
+    field :league_id
   end
 end

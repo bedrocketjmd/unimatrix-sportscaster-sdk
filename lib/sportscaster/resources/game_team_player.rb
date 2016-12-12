@@ -1,6 +1,7 @@
 module Sportscaster
   class GameTeamPlayer < Base
     field :id
+    field :uuid
     field :game_id
     field :team_id
     field :player_id

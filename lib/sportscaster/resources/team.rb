@@ -6,13 +6,13 @@ module Sportscaster
     field :short_name
     field :provider
     field :provider_uid
+    field :cross_season_uid
     field :logo_url
     field :mascot_name
     field :created_at
     field :updated_at
     field :league_id
 
-    has_many :season_teams
     has_many :seasons
     has_many :divisions
     has_many :players

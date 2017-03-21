@@ -30,7 +30,6 @@ module Sportscaster
     has_many :players
     has_many :season_goalie_statistics
     has_many :season_player_statistics
-    has_many :season_teams
     has_many :season_team_players
     has_many :season_team_statistics
     has_many :staff_members

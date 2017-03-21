@@ -21,8 +21,7 @@ module Sportscaster
     field :captain
     field :league_id
 
-    has_many :season_team_players
-    has_many :season_teams
+    has_many :team_players
     has_many :teams
     has_many :game_team_players
     has_many :games

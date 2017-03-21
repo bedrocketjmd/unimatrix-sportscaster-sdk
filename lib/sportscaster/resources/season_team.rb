@@ -9,7 +9,7 @@ module Sportscaster
     field :division_id
     field :league_id
 
-    has_many :season_team_players
+    has_many :team_players
     has_many :players
     has_many :staff_members
     has_one :season_team_statistic

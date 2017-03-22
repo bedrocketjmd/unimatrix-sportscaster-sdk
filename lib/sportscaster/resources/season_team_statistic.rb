@@ -5,7 +5,7 @@ module Sportscaster
     field :provider
     field :created_at
     field :updated_at
-    field :season_team_id
+    field :team_id
     field :games_played
     field :wins
     field :losses

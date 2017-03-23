@@ -13,10 +13,6 @@ module Sportscaster
     field :updated_at
     field :league_id
 
-    belongs_to :season
-    belongs_to :division
-    belongs_to :league
-
     has_many :team_players
     has_many :players
     has_many :game_team_players

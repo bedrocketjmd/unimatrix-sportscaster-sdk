@@ -12,6 +12,8 @@ module Sportscaster
     field :created_at
     field :updated_at
     field :league_id
+    field :division_id
+    field :season_id
 
     has_many :team_players
     has_many :players

@@ -12,7 +12,6 @@ module Sportscaster
     field :ties
     field :points
     field :winning_percentage
-    field :penalty_minutes
     field :shots
     field :shooting_percentage
     field :goals_allowed

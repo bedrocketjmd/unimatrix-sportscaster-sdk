@@ -9,7 +9,6 @@ module Sportscaster
     field :goals
     field :assists
     field :points
-    field :penalty_minutes
     field :shorthanded_goals
     field :game_winning_goals
     field :shots

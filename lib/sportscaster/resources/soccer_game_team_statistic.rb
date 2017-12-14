@@ -1,5 +1,6 @@
 module Sportscaster
   class SoccerGameTeamStatistic < GameTeamStatistic
+    field :shots
     field :corner_kicks
     field :blocks
     field :yellow_cards

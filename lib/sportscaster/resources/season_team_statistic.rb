@@ -17,6 +17,9 @@ module Sportscaster
     field :goals_allowed
     field :saves
     field :saves_percentage
+    field :power_play
+    field :penalty_kill
+    field :penalty_minutes
     field :league_id
   end
 end

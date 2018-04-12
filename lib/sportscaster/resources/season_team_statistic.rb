@@ -8,6 +8,7 @@ module Sportscaster
     field :team_id
     field :games_played
     field :games_back
+    field :ties
     field :wins
     field :losses
     field :points
